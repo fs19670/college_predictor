@@ -74,11 +74,11 @@ def filter_data(df, expected_rank, category, districts, courses):
 # Save filtered data to MySQL database
 def save_to_mysql(df):
     db_config = {
-        'user': 'root',
-        'password': 'Faisal123@',
-        'host': '127.0.0.1',
-        'port': 3306,
-        'database': 'Faisal'
+        'user': '',
+        'password': '',
+        'host': '',
+        'port': ,
+        'database': ''
     }
 
     try:
